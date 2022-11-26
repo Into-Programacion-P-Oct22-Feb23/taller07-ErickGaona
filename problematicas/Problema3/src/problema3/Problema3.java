@@ -18,7 +18,7 @@ public class Problema3 {
         int contador=3;
         int contador2=1;
         String mensaje= "";
-        while(contador2<=10){
+        do{
             
             mensaje= mensaje + x+"\n";
             x= x+contador;
@@ -26,7 +26,7 @@ public class Problema3 {
             contador2 = contador2 +1;
             
         
-        }
+        }while(contador2<=10);
         System.out.println(""+mensaje);
     }
     
