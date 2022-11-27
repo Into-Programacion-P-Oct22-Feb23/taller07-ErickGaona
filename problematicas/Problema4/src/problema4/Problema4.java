@@ -19,7 +19,7 @@ public class Problema4 {
         int contador =1;
         String signo ="";
         String mensaje = "";
-        int denominador =1;
+        int denominador =3;
         
         while(contador <=10){
             if(contador %2==0){
