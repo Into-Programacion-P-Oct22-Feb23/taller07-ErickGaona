@@ -32,7 +32,7 @@ public class Problema4 {
             }
         mensaje = mensaje + signo +" " +"1/"+ denominador +" " ;
         contador = contador +1;
-        denominador= denominador +1;
+        denominador= denominador +2;
         
         
         }
